@@ -1,6 +1,6 @@
 'use strict';
 
-const aapt          = require('./bin/aapt');
+const aapt          = require('./bin/aapt_linux');
 const parseText     = require('./bin/parseText');
 const writeIconFile = require('./bin/writeIconFile');
 
