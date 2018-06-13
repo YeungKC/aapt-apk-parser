@@ -4,9 +4,9 @@ const path = require('path');
 const os   = require('os');
 const exec = require('child_process').exec;
 
-module.exports = function(apkPath, appt) {
+module.exports = function(apkPath, aapt) {
   return new Promise((resolve, reject) => {
-    const aapt    = appt || path.join(__dirname, 'aapt_' + os.platform());
+    const aapt    = aapt || path.join(__dirname, 'aapt_' + os.platform());
     const command = aapt + ' d badging ' + apkPath;
 
     exec(command, function(err, stdout, stderr) {
