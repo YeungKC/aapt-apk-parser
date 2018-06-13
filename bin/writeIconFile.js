@@ -12,6 +12,6 @@ module.exports = async function(apkFilePath, iconResPath, iconFilePath) {
       return file;
     },
   });
-  return {...file, mime: mime.lookup(iconFilePath)};
+  return {...file[0], mime: mime.lookup(iconFilePath)};
 };
 
