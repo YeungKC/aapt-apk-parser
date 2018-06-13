@@ -17,7 +17,7 @@ const parseText = function(stdout, splitter, insideSplitter) {
       const valueString = info[1].trim();
       let value;
 
-      if (key === 'uses-implied-feature') {
+      if (key === 'uses-implied-feature' || key.startsWith('application-label')) {
         value = valueString;
       } else {
         value = parseText(valueString, ' ', '=');
