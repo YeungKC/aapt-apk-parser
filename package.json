@@ -6,7 +6,8 @@
   "author": "YeungKC",
   "license": "MIT",
   "dependencies": {
-    "decompress": "^4.2.0"
+    "decompress": "^4.2.0",
+    "mime-types": "^2.1.18"
   },
   "scripts": {
     "test": "node $NODE_DEBUG_OPTION test"
