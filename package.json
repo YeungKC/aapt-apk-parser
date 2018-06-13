@@ -1,5 +1,5 @@
 {
-  "name": "appt-apk-parser",
+  "name": "aapt-apk-parser",
   "version": "1.0.3",
   "description": "A apk parser by aapt",
   "main": "index.js",
