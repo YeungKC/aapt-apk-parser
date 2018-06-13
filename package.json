@@ -10,5 +10,9 @@
   },
   "scripts": {
     "test": "node $NODE_DEBUG_OPTION test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YeungKC/appt-apk-parser.git"
   }
 }
