@@ -1,0 +1,14 @@
+{
+  "name": "appt-apk-parser",
+  "version": "1.0.0",
+  "description": "A apk parser by aapt",
+  "main": "index.js",
+  "author": "YeungKC",
+  "license": "MIT",
+  "dependencies": {
+    "decompress": "^4.2.0"
+  },
+  "scripts": {
+    "test": "node $NODE_DEBUG_OPTION test"
+  }
+}
