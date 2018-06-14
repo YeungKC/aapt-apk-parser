@@ -1,6 +1,6 @@
 {
   "name": "aapt-apk-parser",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A apk parser by aapt",
   "main": "index.js",
   "author": "YeungKC",
